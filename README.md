@@ -23,7 +23,7 @@ Clone this repository and install the required dependencies:
 git clone [https://github.com/mukulgauthankar/Greiner-Lake-Manuscript.git](https://github.com/mukulgauthankar/Greiner-Lake-Manuscript.git)
 cd Greiner-Lake-Manuscript
 pip install -r requirements.txt
-python scripts/plot_temperature_surface_bottom_2022_2023.py
+python scripts/fig02_plot_temperature_surface_bottom_2022_2023.py
 python scripts/fig03_plot_do_saturation_multiyear.py
-python scripts/plot_do_profiles_pelagic_littoral_winter.py
+python scripts/fig04_plot_do_profiles_pelagic_littoral_winter.py
 python scripts/fig05_plot_wind_roses_thin_ice_window.py
