@@ -17,13 +17,24 @@ This repository provides the processed datasets and Python workflows to reproduc
 
 ## Computational Environment Setup
 
-Clone this repository and install the required dependencies:
+Clone this repository, install dependencies, and reproduce all figures sequentially:
 
 ```bash
 git clone [https://github.com/mukulgauthankar/Greiner-Lake-Manuscript.git](https://github.com/mukulgauthankar/Greiner-Lake-Manuscript.git)
 cd Greiner-Lake-Manuscript
 pip install -r requirements.txt
+
+# Reproduce Main Figures
 python scripts/fig02_plot_temperature_surface_bottom_2022_2023.py
 python scripts/fig03_plot_do_saturation_multiyear.py
 python scripts/fig04_plot_do_profiles_pelagic_littoral_winter.py
 python scripts/fig05_plot_wind_roses_thin_ice_window.py
+python scripts/fig06_plot_water_level_cycles_multiyear.py
+python scripts/fig07_plot_stable_isotopes_water_sources.py
+python scripts/fig08_plot_nutrient_profiles_master_panel.py
+
+# Reproduce Supplementary Figures
+python scripts/supp_fig01_plot_precipitation_heatmap_cambridge_bay.py
+python scripts/supp_fig03_plot_temperature_multiyear_panels.py
+python scripts/supp_fig05_plot_chla_profiles_snow_ice.py
+python scripts/supp_fig06_plot_ghg_vertical_profiles_2023.py
