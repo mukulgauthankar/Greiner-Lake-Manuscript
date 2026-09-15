@@ -20,7 +20,7 @@ This repository provides the processed datasets and Python workflows to reproduc
 Clone this repository, install dependencies, and reproduce all figures sequentially:
 
 ```bash
-git clone [https://github.com/mukulgauthankar/Greiner-Lake-Manuscript.git](https://github.com/mukulgauthankar/Greiner-Lake-Manuscript.git)
+git clone https://github.com/mukulgauthankar/Greiner-Lake-Manuscript.git
 cd Greiner-Lake-Manuscript
 pip install -r requirements.txt
 
